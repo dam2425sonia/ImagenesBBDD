@@ -45,10 +45,6 @@ La tabla debe tener al menos los campos: nombre, apellidos, dni, imagen (BLOB) y
 
 La conexión a MySQL se lee desde config.properties
 
-Ejemplo de ejecución:
-
-```mvn compile exec:java -Dexec.mainClass="com.example.SubirImagenAlumno"```
-
 - ObtenerImagenAlumnoConfig
 
 Esta clase permite recuperar la imagen de un alumno desde la base de datos:
@@ -62,10 +58,6 @@ Recupera el BLOB imagen y el tipo MIME tipo_imagen
 Guarda la imagen en la carpeta indicada en ruta.imagenes con la extensión correcta (.jpg o .png)
 
 Crea la carpeta automáticamente si no existe
-
-Ejemplo de ejecución:
-
-```mvn compile exec:java -Dexec.mainClass="com.example.ObtenerImagenAlumnoConfig"```
 
 ## Notas importantes
 
